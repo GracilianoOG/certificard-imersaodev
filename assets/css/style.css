@@ -33,6 +33,8 @@ html, body {
 .wrapper {
     background: #F7F7F7;
     border-radius: 25px;
+    display: flex;
+    flex-direction: column;
     height: 90%;
     padding: 2rem;
     width: 90%;
@@ -50,12 +52,14 @@ html, body {
 }
 
 .cabecalho__titulo {
+    color: #1C1C1C;
     font-size: 2.25rem;
     font-weight: 700;
     line-height: 2.5rem;
 }
 
 .cabecalho__subtitulo {
+    color: #1C1C1C;
     font-size: 1.5rem;
     font-weight: 400;
     line-height: 1.75rem;
@@ -75,4 +79,50 @@ html, body {
     font-weight: 400;
     height: 3.75rem;
     padding: 0 .75rem;
+}
+
+.principal {
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.projetos {
+    align-items: center;
+    background: linear-gradient(230.65deg, #499CFE 27.49%, #9CC8FC 83.19%);
+    box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2rem;
+    padding: 2rem;
+    width: 100%;
+}
+
+.projetos__titulo {
+    color: #1C1C1C;
+    font-size: 2.25rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+
+.projetos__lista {
+    text-align: center;
+}
+
+.projetos__item:not(:last-child) {
+    margin-bottom: .5rem;
+}
+
+.projetos__link {
+    color: #1C1C1C;
+    padding: .5rem 1rem;
+}
+
+.projetos__link:visited {
+    color: rgb(221, 9, 9);
+}
+
+.projetos__link:hover {
+    color: #041832;
 }
