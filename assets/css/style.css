@@ -119,14 +119,11 @@ html, body {
 .projetos__link {
     color: #1C1C1C;
     padding: .5rem 1rem;
-}
-
-.projetos__link:visited {
-    color: rgb(221, 9, 9);
+    transition: color 100ms;
 }
 
 .projetos__link:hover {
-    color: #041832;
+    color: #F7F7F7;
 }
 
 /* Dark */
