@@ -128,3 +128,22 @@ html, body {
 .projetos__link:hover {
     color: #041832;
 }
+
+/* Dark */
+.dark {
+    background: linear-gradient(236.85deg, #375B86 27.26%, #6B87A9 96.03%);
+}
+
+.dark .wrapper {
+    background: #333439;
+}
+
+.dark .cabecalho__titulo, .dark .cabecalho__subtitulo {
+    color: #F7F7F7;
+}
+
+.dark .cabecalho__altera-tema {
+    background: #1C1C1C;
+    border: 2px solid #F7F7F7;
+    color: #F7F7F7;
+}
